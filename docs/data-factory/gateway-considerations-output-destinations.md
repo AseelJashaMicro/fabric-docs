@@ -51,7 +51,7 @@ To troubleshoot the issue, follow these steps:
 The firewall rules on the gateway server and/or customer's proxy servers need to be updated to allow outbound traffic from the gateway server to the following:
 
 * **Protocol**: TCP
-* **Endpoints**: *.datawarehouse.pbidedicated.windows.net, *.datawarehouse.fabric.microsoft.com, *.dfs.fabric.microsoft.com 
+* **Endpoints**: *.datawarehouse.pbidedicated.windows.net, *.datawarehouse.fabric.microsoft.com, *.dfs.fabric.microsoft.com, might need to whitelist *.pbidedicated.windows.net,*.fabric.microsoft.com.
 * **Port**: 1433
 
 >[!NOTE]
