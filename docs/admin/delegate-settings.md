@@ -24,6 +24,9 @@ Here are some key concepts related to delegating settings in Fabric:
 
 Domain, capacity and workspace admins can override tenant settings. Overriding tenant settings allows admins to modify their environment to meet specific requirements. When a setting is adjusted in a domain or capacity, it affects only the workspaces linked to those administrative units. Similarly, changes to a workspace impact only the items stored within that workspace.
 
+> [!NOTE]
+> Not all tenant settings are supported for delegation.
+
 ## Delegation design
 
 A setting can be delegated either through domains or capacities, but not both. This ensures clarity in governance and prevents conflicts in the management of settings.
